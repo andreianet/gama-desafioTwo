@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+a:link, a:visited, a:active  {
+    text-decoration: none;
+    color: #fff;
+} 
+.container {
+    background: #ccb117;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header {
+    height: 10%;
+    background: rgb(52, 53, 51);
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+header h1 {
+    font-family: sans-serif;
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+}
+
+#form{
+    width:90%;
+    height:95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#form button, #form .button{
+    border-radius:  1.5rem;
+    padding: 1rem 2rem;    
+    cursor: pointer;
+    font-size:2.4rem;
+    text-align: center;
+    background: #000;
+}
+
+#form input{
+    text-align: center;
+}
+
+
+
+#form-index {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto 6rem;
+}
+#form-index button {
+    margin: 0 10rem;
+}
+
+/*----Client*/
+#form_client {
+    font-size: 1.8rem;   
+    margin-top: 5rem;
+    display: flex;
+    border-radius: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form_client input {
+        width: 30rem;
+        height: 3rem;
+        display: flex;
+       
+        border-radius: 1rem;
+        outline: none;
+        margin-top: 1rem;
+}
+
+#form_client label {
+    margin: 1rem;
+}
+
+#form_client button {
+    width: 30rem;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    margin: 1rem;
+    height: 4rem;
+    font-size: 2.4rem;
+}
+
+/*product*/
+/*----Client*/
+#form_product {
+    font-size: 1.8rem;   
+    margin-top: 5rem;
+    display: flex;
+    border-radius: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form_product input {
+        width: 30rem;
+        height: 3rem;
+        display: flex;
+       
+        border-radius: 1rem;
+        outline: none;
+        margin-top: 1rem;
+}
+
+#form_product label {
+    margin: 1rem;
+}
+
+#form_product button {
+    width: 30rem;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    margin: 1rem;
+    height: 4rem;
+    font-size: 2.4rem;
+}
+
+
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+    font-size: 1.5rem;
+	width: 100%;
+    background: rgb(52, 53, 51);
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+}
+i:hover {
+    color: #AEC6CF;
+    transition: 0.5s;
+    cursor: pointer;
+}
