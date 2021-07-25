@@ -14,3 +14,7 @@ Tecnologias:
 - JavaScript
 
 Função no Desafio: Ter um cadastro simples de clientes e produtos.
+
+Algumas Referências:
+- https://www.w3schools.com/html/html5_webstorage.asp
+- https://www.youtube.com/watch?v=mpZy_pWSJV4

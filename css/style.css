@@ -12,11 +12,13 @@ a:link, a:visited, a:active  {
 .container {
     background: #ccb117;
     height: 100vh;
-    width: 100%;
+    width: auto;
     margin: auto;
-    font-family: 'Roboto', sans-serif;
+    border-radius: 8px;
+   
     
 }
+
 
 header {
     height: 10%;
@@ -42,7 +44,8 @@ header h1 {
 }
 
 #form button, #form .button{
-    border-radius:  1.5rem;
+    margin-top: 25px;
+    border-radius:  5px;
     padding: 1rem 2rem;    
     cursor: pointer;
     font-size:2.4rem;
@@ -76,6 +79,10 @@ header h1 {
     flex-direction: column;
     align-items: center;
 }
+.h3{
+    color: #fff;
+    font-size: 5px;
+}
 
 #form_client input {
         width: 30rem;
@@ -102,7 +109,7 @@ header h1 {
 }
 
 /*product*/
-/*----Client*/
+
 #form_product {
     font-size: 1.8rem;   
     margin-top: 5rem;
